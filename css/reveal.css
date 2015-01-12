@@ -386,14 +386,33 @@ body {
  * CONTROLS
  *********************************************/
 
+.reveal .controls-left {
+	position:fixed;
+	height: 100%;
+	width:20%;
+	z-index: 30;
+	top:20%;
+}
+
+.reveal .controls-right {
+	position:fixed;
+	height: 100%;
+	width:20%;
+	z-index: 30;
+	right:0;
+	top:20%;
+
+}
+
+
 .reveal .controls {
-	display: none;
+/*	display: none;
 	position: fixed;
 	width: 110px;
 	height: 110px;
 	z-index: 30;
 	right: 10px;
-	bottom: 10px;
+	bottom: 10px;*/
 }
 
 .reveal .controls div {
@@ -422,18 +441,24 @@ body {
 }
 
 	.reveal .controls div.navigate-left {
-		top: 42px;
 
-		border-right-width: 22px;
-		border-right-color: #eee;
+		position:fixed;
+		height: 80%;
+		width:15%;
+		z-index: 30;
+		top:10%;
 	}
 		.reveal .controls div.navigate-left.fragmented {
 			opacity: 0.3;
 		}
 
 	.reveal .controls div.navigate-right {
-		left: 74px;
-		top: 42px;
+		position:fixed;
+		height: 85%;
+		width:15%;
+		z-index: 30;
+		right:0;
+		top:10%;
 
 		border-left-width: 22px;
 		border-left-color: #eee;
