@@ -144,3 +144,25 @@ html.bathroom body {
   background-size: contain;
 }
 
+#mc_embed_signup {
+  clear:left;
+}
+
+#mc_embed_signup input.email {
+  margin-left: auto !important;
+  margin-right: auto  !important;
+  font-size: 20px;
+}
+
+#mc_embed_signup input.button {
+  margin-left: auto !important;
+  margin-right: auto  !important;
+  font-size: 20px;
+}
+
+.drops-icon {
+  max-width: 200px !important;
+  border: none !important;
+}
+
+
