@@ -369,16 +369,10 @@ var Reveal = (function(){
 
 		// Arrow controls
 		createSingletonNode( dom.wrapper, 'aside', 'controls',
-			'<div class="navigate-left"></div>' +
-			'<div class="navigate-right"></div>' +
+			'<div class="navigate-left"><img src="img/arrow-left.png"></div>' +
+			'<div class="navigate-right"><img src="img/arrow-right.png"></div>' +
 			'<div class="navigate-up"></div>' +
 			'<div class="navigate-down"></div>' );
-
-		// createSingletonNode( dom.wrapper, 'aside', 'controls-left',
-		// 	'<div class="controls"><div class="navigate-left"><img src="img/arrow-left.png"></div></div>');
-		// createSingletonNode( dom.wrapper, 'aside', 'controls-right',
-		// 	'<div class="controls"><div class="navigate-right"><img src="img/arrow-right.png"></div></div>');
-
 
 		// Slide number
 		dom.slideNumber = createSingletonNode( dom.wrapper, 'div', 'slide-number', '' );
